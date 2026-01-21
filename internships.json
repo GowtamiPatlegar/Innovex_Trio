@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Java Developer Intern",
+    "company": "CodeCraft Solutions",
+    "skills": ["java", "web"],
+    "link": "https://example.com/java-intern"
+  },
+  {
+    "title": "Web Development Intern",
+    "company": "WebWorks Pvt Ltd",
+    "skills": ["html", "css", "javascript", "web"],
+    "link": "https://example.com/web-intern"
+  },
+  {
+    "title": "Frontend Developer Intern",
+    "company": "UI Studios",
+    "skills": ["html", "css", "javascript"],
+    "link": "https://example.com/frontend-intern"
+  },
+  {
+    "title": "Python Developer Intern",
+    "company": "PyTech",
+    "skills": ["python", "data"],
+    "link": "https://example.com/python-intern"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "DataWorks",
+    "skills": ["python", "data", "machine learning"],
+    "link": "https://example.com/ds-intern"
+  },
+  {
+    "title": "Software Engineer Intern",
+    "company": "TechNova",
+    "skills": ["java", "python", "web"],
+    "link": "https://example.com/se-intern"
+  },
+  {
+    "title": "Backend Intern",
+    "company": "API Labs",
+    "skills": ["python", "fastapi", "web"],
+    "link": "https://example.com/backend-intern"
+  },
+  {
+    "title": "Full Stack Intern",
+    "company": "StackEdge",
+    "skills": ["java", "python", "html", "css", "javascript", "web"],
+    "link": "https://example.com/fullstack-intern"
+  }
+]

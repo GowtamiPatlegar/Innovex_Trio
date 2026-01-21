@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Blurred background image */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("./images/intern.jpg") center/cover no-repeat;
+  transform: scale(1.1);
+  z-index: -1;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #eef2f6;
+  color: #1f2937;
+}
+
+/* Header */
+header {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+
+  /* transparency */
+  background: rgba(255, 255, 255, 0.85);
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  backdrop-filter: saturate(180%);
+}
+
+
+/* Upload box */
+.upload-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dashed #cbd5e1;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.file-label {
+  font-weight: 500;
+}
+
+input[type="file"] {
+  display: block;
+  margin-top: 8px;
+}
+
+/* Button */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Skills */
+#skills li {
+  display: inline-block;
+  background-color: #e5edff;
+  color: #1e3a8a;
+  padding: 6px 12px;
+  margin: 6px;
+  border-radius: 16px;
+  font-size: 13px;
+}
+
+/* Internship cards */
+.card {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #2563eb;
+  padding: 16px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+.card h4 {
+  margin: 0 0 6px 0;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}

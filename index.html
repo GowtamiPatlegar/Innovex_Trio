@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internship Recommendation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Internship Recommendation System</h1>
+    <p>Upload your resume and find the best‑matched internships</p>
+  </header>
+
+  <div class="container">
+
+    <div class="upload-box">
+      <label class="file-label">
+        <h1>Upload Resume (PDF)</h1>
+        <input type="file" id="resume" accept=".pdf">
+      </label>
+      <button onclick="uploadResume()">Find Internships</button>
+    </div>
+
+    <section>
+      <h3>Skills Identified</h3>
+      <ul id="skills"></ul>
+    </section>
+
+    <section>
+      <h3>Recommended Internships</h3>
+      <div id="results"></div>
+    </section>
+
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
