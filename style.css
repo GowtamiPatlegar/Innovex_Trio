@@ -10,7 +10,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("./images/intern.jpg") center/cover no-repeat;
+  background: url("./intern.jpg") center/cover no-repeat;
   transform: scale(1.1);
   z-index: -1;
 }
@@ -133,3 +133,4 @@ button:hover {
   text-decoration: none;
   font-weight: 600;
 }
+
